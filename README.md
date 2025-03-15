@@ -1,9 +1,9 @@
 # Handwritten Digit Recognition Using LeNet
 
-# Overview
+## Overview
 This project implements a Convolutional Neural Network (CNN) using the LeNet architecture to recognize handwritten digits (0-9) from the MNIST dataset. The model is trained to classify 28x28 grayscale images while addressing challenges such as variations in handwriting styles, distortions, and different orientations.
 
-# Features
+## Features
 - Uses the MNIST dataset for handwritten digit recognition.
 - Implements the classic LeNet-5 architecture.
 - Achieves high accuracy on the test dataset.
@@ -28,20 +28,22 @@ LeNet-5 consists of:
 7. **Fully Connected Layer 2**: 84 neurons
 8. **Output Layer**: 10 neurons (Softmax for classification)
 
-# Requirements
+## Requirements
 To run this project, install the following dependencies:
- 
+```bash
 pip install tensorflow keras numpy matplotlib
- 
+```
 
-# Results
+ 
+## Results
 - **Training Accuracy**: ~99%
 - **Testing Accuracy**: ~98%
 - **Loss Function**: Cross-Entropy Loss
 - **Optimizer**: Adam/SGD
 
-# Visualization
+## Visualization
 - Confusion matrix for analyzing misclassifications.
 - Sample predictions with true labels.
 - Accuracy and loss curves during training.
 
+   
